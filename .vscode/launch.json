@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:6722cfeb2aa23111e3623a58}",
+      "name": "Debug 6722cfeb2aa23111e3623a58",
+      "program": "${workspaceFolder:6722cfeb2aa23111e3623a58}/.build/debug/6722cfeb2aa23111e3623a58",
+      "preLaunchTask": "swift: Build Debug 6722cfeb2aa23111e3623a58"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:6722cfeb2aa23111e3623a58}",
+      "name": "Release 6722cfeb2aa23111e3623a58",
+      "program": "${workspaceFolder:6722cfeb2aa23111e3623a58}/.build/release/6722cfeb2aa23111e3623a58",
+      "preLaunchTask": "swift: Build Release 6722cfeb2aa23111e3623a58"
+    }
+  ]
+}
